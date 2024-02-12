@@ -1,4 +1,4 @@
-package videogamecat.exceptions;
+package videogames.exceptions;
 
 //@author DAVIUS1
 

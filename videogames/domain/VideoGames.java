@@ -22,7 +22,7 @@ public class VideoGames {
 
     @Override
     public String toString() {
-        return "VideoGames{" + "name=" + name + '}';
+        return this.name;
     }
     
 }

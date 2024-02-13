@@ -34,6 +34,7 @@ public class VideogameCatalogImpl implements IVideogamesCatalog {
         try {
             var videogames = this.data.list(FILE_NAME);
             for (var videogame : videogames) {
+                System.out.println("videogame = " + videogame);
             }
         } catch (DataAccessExceptions ex) {
             System.out.println("Data access error");
@@ -51,7 +52,7 @@ public class VideogameCatalogImpl implements IVideogamesCatalog {
             System.out.println("Data access error searching a videogame");
             ex.printStackTrace(System.out);
         }
-        System.out.println("result = " + result);
+        System.out.println("result = " + result );
 
     }
 

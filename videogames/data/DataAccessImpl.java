@@ -64,7 +64,7 @@ public class DataAccessImpl implements IDataAccess {
             int index = 1;
             while (line != null) {
                 if (search != null && search.equalsIgnoreCase(line)) {
-                    result = "Videogame" + line + " found in the index " + index;
+                    result = "Videogame " + line + " found in the index " + index;
                     break;
                 }
                 line = input.readLine();

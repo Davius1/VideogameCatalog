@@ -1,13 +1,11 @@
 package videogames.service;
 
-//author DAVIUS
-import java.util.logging.Level;
-import java.util.logging.Logger;
+//author DAVIUS1
+
 import videogames.data.DataAccessImpl;
 import videogames.data.IDataAccess;
 import videogames.domain.VideoGames;
 import videogames.exceptions.DataAccessExceptions;
-import videogames.exceptions.ReadDataEX;
 
 public class VideogameCatalogImpl implements IVideogamesCatalog {
 
